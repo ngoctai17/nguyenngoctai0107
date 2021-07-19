@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+.tuyendung{
+    background-color: var(--bg-color);
+}
+.tuyendung .tuyendung-item h2{
+    color: back;
+    font-size: 35px;
+    font-family: 'Otomanopee One', sans-serif;
+}
+.tuyendung .tuyendung-item p{
+    margin-top: 20px;
+    color: back;
+    font-size: 18px;
+    margin: 15px 0 30px;
+}
+.tuyendung .tuyendung-item img{
+    width: 100%;
+}
+.tuyendung-item{
+    width: calc(100%/2);
+    padding: 15px;
+}
+.tuyendung-item li{
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: back;
+}
+.tuyendung-item-img{
+    position: relative;
+}
+.tuyendung-item-img:hover {
+    animation: move-team 2s infinite;
+}
+@keyframes move-team{
+    0%,100%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(0.9);
+    }
+}

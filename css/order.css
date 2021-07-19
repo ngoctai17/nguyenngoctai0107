@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+.order{
+    background-color: var(--bg-color);
+}
+.order .order-items h2{
+    color: back;
+    font-size: 35px;
+    font-family: 'Otomanopee One', sans-serif;
+}
+.order .order-items p{
+    margin-top: 20px;
+    color: back;
+    font-size: 18px;
+    margin: 15px 0 30px;
+}
+.order-items{
+    width: calc(100%/2);
+    padding: 15px;
+}
+.order-items li{
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: back;
+}
+.btn-order{
+    background-color:burlywood;
+    border: none;
+    padding: 10px 30px;
+    margin-right: 70%;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.btn-order:hover{
+    background-color: var(--sub-color);
+}
+input[type="email"],
+input[type="date"],
+input[type="number"],
+input[type="text"]{
+  border: 1px solid #e5e5e5;
+  padding: 0 15px;
+  height: 2.8em;
+  font-size: 15px;
+  border-radius: 5px;
+  width: 100%;
+}
+input[type="note"]{
+    border: 1px solid #e5e5e5;
+    padding: 0 15px;
+    height: 2.8em;
+    font-size: 15px;
+    border-radius: 5px;
+    width: 100%;
+}
+.order-items .nhap input:focus{
+    border: 1px solid black;
+}
+.order-items .time{
+  padding: 12px;
+  font-size: 20px;
+  width: 100%;
+}
+input[type="checkbox"]{
+  border: 1px solid #e5e5e5;
+  border-radius: 5px;
+  width: 5%;
+  height: 1.2em;
+  margin-bottom: 20px;
+  margin-right: 7px;
+}

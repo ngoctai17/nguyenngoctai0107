@@ -1,0 +1,22 @@
+@media (max-width: 768px){
+    .top {
+        padding: 0 25px 0 0;
+    }
+    .about-item{
+        width: 100%;
+    }
+    .food-items{
+        width: 100%;
+    }
+    .phan-hoi-item{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .team-items{
+        width: 100%;
+        margin-bottom: 60px;
+    }
+    .gioithieu-item{
+        width: 100%;
+    }
+}
