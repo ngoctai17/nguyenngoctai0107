@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+.items{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.tintuc-item{
+    box-shadow: 2px 0 0 #eae1e1;
+    margin-right: 50px
+}
+.item a{
+    color: black;
+    font-size: 18px;
+    font-family: 'Otomanopee One', sans-serif;
+}
+.item a:hover{
+    color: var(--sub-color);
+    cursor: pointer;
+}
+.item p{
+    margin-top: 20px;
+    color: back;
+    font-size: 16.5px;
+    margin: 15px 0 30px;
+}
+.item img{
+    height: 200px;
+    margin-right: 20px;
+    box-shadow: 3px 3px 3px #e0e0e0;
+}
+.item{
+    display: flex;
+    margin: 0 15px;
+    padding: 15px;
+    margin-right: 100px;
+}
+.item span{
+    margin-top: 30px;
+}
+.find{
+    display: flex;
+}
+
+.text-search{
+padding:8px;
+cursor:pointer;
+transition: all 1s;
+	-webkit-transition: all 1s;
+	-moz-transition: all 1s;
+	background:#ff826e;
+	vertical-align:middle;
+}
+.text-search:hover{
+background:var(--bg-color);
+color:#ff826e;
+}
+input[type="text"]{
+	color:#eee;	
+    border: none;
+	width: 170px;
+	height:30px;
+	transition: all 1s;
+	-webkit-transition: all 1s;
+	-moz-transition: all 1s;
+}
+
+input[type="text"]:focus{
+	border:none;
+	-moz-box-shadow: 0 0 2px 2px #ff826e;
+	-webkit-box-shadow: 0 0 2px 2px #ff826e;
+	box-shadow: 0 0 2px 2px #ff826e;
+}   
+
+.find i{
+    color: black;
+}
+.find i:hover{
+    color: var(--sub-color);
+}
+.baiviets h3{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.baiviets h2::after{
+    content: "";
+    display: block;
+    width: 15%;
+    margin-top: 10px;
+    height: 3px;
+    background-color: #e0e0e0;
+    margin-bottom: 20px;
+}
+.baiviets .danhmuc a{
+    font-size: 17px;
+    color: black;
+}
+.baiviets .danhmuc p::after{
+    content: "";
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    height: 0.6px;
+    background-color: #e0e0e0;
+    margin-bottom: 10px;
+}
+
+.item h3::after{
+    content: "";
+    display: block;
+    width: 15%;
+    margin-top: 10px;
+    height: 3px;
+    background-color: #e0e0e0;
+}
+.baiviets .danhmuc a:hover{
+    color: #709fff;
+    cursor: pointer;
+}

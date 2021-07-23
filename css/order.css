@@ -2,6 +2,10 @@
 .order{
     background-color: var(--bg-color);
 }
+.order-item{ 
+    display: flex;
+    justify-content: space-between;
+}
 .order .order-items h2{
     color: back;
     font-size: 35px;
@@ -13,14 +17,24 @@
     font-size: 18px;
     margin: 15px 0 30px;
 }
+.items{
+    width: 100%;
+}
 .order-items{
-    width: calc(100%/2);
     padding: 15px;
+    width: 500%;
 }
 .order-items li{
     font-size: 18px;
     margin-bottom: 20px;
     color: back;
+}
+.order-items li::after{
+    content: "";
+    display: block;
+    width: 75%;
+    margin-top: 10px;
+    border: 0.5px inset black;
 }
 .btn-order{
     background-color:burlywood;
@@ -47,6 +61,26 @@ input[type="text"]{
   font-size: 15px;
   border-radius: 5px;
   width: 100%;
+  box-shadow: 1px 1px 1px yellow inset;
+}
+.order-input textarea{
+    box-shadow: 1px 1px 1px yellow inset;
+	height: 150px;
+	border-radius:5px;
+	font-size: 15px;
+	width:100%;
+    border: none;
+	padding-top:10px;
+    padding: 0 15px;
+}
+input[type="text"]:focus, 
+input[type="number"]:focus, 
+input[type="date"]:focus, 
+input[type="email"]:focus, 
+input[type="note"]:focus,
+.order-input textarea:focus {
+	border:none;
+	margin-bottom:10px;
 }
 input[type="note"]{
     border: 1px solid #e5e5e5;
@@ -55,9 +89,7 @@ input[type="note"]{
     font-size: 15px;
     border-radius: 5px;
     width: 100%;
-}
-.order-items .nhap input:focus{
-    border: 1px solid black;
+    box-shadow: 1px 1px 1px yellow inset;
 }
 .order-items .time{
   padding: 12px;
@@ -72,3 +104,4 @@ input[type="checkbox"]{
   margin-bottom: 20px;
   margin-right: 7px;
 }
+

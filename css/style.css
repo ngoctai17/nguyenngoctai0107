@@ -339,7 +339,7 @@ a{
     left: 15px;
     right: 15px;
     bottom: 0;
-    border: 1px inset var(--main-color);
+    border: 0.5px inset var(--main-color);
 }
 .food-items:hover .food-item p{
     color: var(--sub-color);
